@@ -19,7 +19,11 @@ public:
 private:
     Ui::Calc *ui;
 
-
+private slots :
+    void NumPressed();
+    void MathButtonPressed();
+    void EqualButtonPressed();
+    void ChangeNumberSign();
 
 };
 #endif //QT_BASIC_CALCULATOR_CALCULATOR_H
